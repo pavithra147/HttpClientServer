@@ -1,0 +1,73 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "contacts": [
+    {
+      "id": 1,
+      "firstname": "Ramesh",
+      "lastname": "kumar"
+    },
+    {
+      "id": 2,
+      "firstname": "Vicky",
+      "lastname": "krish"
+    },
+    {
+      "id": 3,
+      "firstname": "Jaya",
+      "lastname": "latha"
+    },
+    {
+      "title": " hj",
+      "content": " iuyjm",
+      "id": 4
+    }
+  ],
+  "title": [
+    {
+      "title": " cvbnm",
+      "content": " fdghj",
+      "id": 1
+    },
+    {
+      "title": " kjkml,",
+      "content": " joijl",
+      "id": 2
+    },
+    {
+      "title": " dog",
+      "content": " cat",
+      "id": 3
+    },
+    {
+      "title": " food",
+      "content": "eat",
+      "id": 4
+    },
+    {
+      "title": " jskj",
+      "content": " kjkjkm",
+      "id": 5
+    },
+    {
+      "title": " dog",
+      "content": " jjkkj",
+      "id": 6
+    }
+  ]
+}
