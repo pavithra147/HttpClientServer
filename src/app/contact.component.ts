@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { count, Observable } from 'rxjs';
 import { ContactService } from './contact.service';
 
 @Component({
@@ -20,8 +21,9 @@ export class ContactComponent implements OnInit{
    
     onClearPost(id:number){
   
-      this.contactService.clearPost(id);
+      this.contactService.clearPost(id).subscribe(data=>console.log(data));
+      
     }
 
-  
+   
 }

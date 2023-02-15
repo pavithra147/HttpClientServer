@@ -27,8 +27,9 @@ list:any
 onCreateTitle(){
   
   const postdata = this.titleForm.value;
-  this.httpclient.post("http://localhost:3000/title",postdata).subscribe(response=>this.list=response
-  )
+  this.httpclient.post("http://localhost:3000/title",postdata).subscribe(response=>{this.list=response;
+  console.log(response);
+})
   // this.contactobj.title=this.titleForm.value.title;
   // this.contactobj.content=this.titleForm.value.content;
   // this.contactservice.postcontact(this.contactobj).subscribe((res)=>{
@@ -38,6 +39,6 @@ onCreateTitle(){
 }
  onClearPost(id:number){
   
-   this.contactService.clearPost(id);
+   this.contactService.clearPost(id).subscribe(data=>console.log(data));
  }
  }

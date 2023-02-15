@@ -22,7 +22,7 @@ export class ContactService {
       })))
     }
       clearPost(id:number){
-        this.http.delete("http://localhost:3000/title").subscribe(response=>{console.log(response)})
+       return this.http.delete("http://localhost:3000/title");
       }
    
 }
